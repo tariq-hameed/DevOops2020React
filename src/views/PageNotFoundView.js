@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const PageNotFound = () => {
+export const PageNotFoundView = () => {
     return(
         <div>
            <h1>
