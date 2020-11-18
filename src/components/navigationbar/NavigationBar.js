@@ -1,6 +1,7 @@
 import React from 'react'
 import Logotype from '../../shared/Images/logotype.svg'
 import {useHistory} from 'react-router-dom'
+import RoutinPath from '../../routes/RoutingPath'
 import './NavigationBar.css'
 
 export const NavigationBar = () => {
@@ -9,11 +10,11 @@ export const NavigationBar = () => {
         <div className="navigationBarWrapper">
          
             <img 
-                onClick={() => alert("you clicked on the image")}
+                onClick={() => history.push(RoutinPath.HomeView)}
                 className="logotype"
                 src = {Logotype} 
                 alt ={"Error .."} />
-                <span className="signIn" onClick={()=> history.push('/signin')}>Sign In</span>
+                <span className="signIn" onClick={()=> history.push(RoutinPath.SignInView)}>Sign In</span>
         </div>
     )
 }
