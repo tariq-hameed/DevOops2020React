@@ -1,10 +1,10 @@
-// import './App.css';
+import { Routes } from './routes/Routes'
 
 function App() {
   return (
-    <div>
+    <Routes>
      <h1>Hej devapp 20202</h1>
-    </div>
+    </Routes>
   );
 }
 
