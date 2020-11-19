@@ -1,3 +1,4 @@
+import React from 'react'
 import { Routes } from './routes/Routes'
 import {NavigationBar} from './components/navigationbar/NavigationBar'
 import { UserProvider} from './shared/provider/UserProvider'
@@ -11,7 +12,7 @@ function App() {
       </Routes>
       
     </UserProvider>
-  );
+  )
 }
 
-export default App;
+export default App

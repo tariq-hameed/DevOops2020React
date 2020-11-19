@@ -1,4 +1,4 @@
-const HomeView ='/home'
+const HomeView ='/'
 const SignInView = '/signin'
 
 export default {

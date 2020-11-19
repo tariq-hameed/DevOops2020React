@@ -1,12 +1,18 @@
 .navigationBarWrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
     background-color: orange;
     padding: 1%;
 }
 
 .logotype{
     width: 100px;
+    cursor: pointer;
 }
 
 .signIn{
     cursor: pointer;
+    grid-column: 9/11;
+    justify-self: center;
+    align-self: center;
 }

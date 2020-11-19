@@ -4,7 +4,7 @@ import {UserContext} from '../shared/provider/UserProvider'
 export const SignInView = () => {
     
     const [username, setUsername] = useState()
-    const [authenticatedUser, setAuthenticatedUser] = useContext(UserContext)
+    const [, setAuthenticatedUser] = useContext(UserContext)
 
     const login = (e) => {
         e.preventDefault()
